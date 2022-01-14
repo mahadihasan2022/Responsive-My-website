@@ -26,11 +26,35 @@ nav li a{
     background-color: white;
     padding:0 2px;
 } */
-h1{
+h2{
     font-size: 30px;
     /* color: black; */
 }
 nav>ul>li:hover>ul{
     display: block;
 }
-  
+.in-container{
+    display: flex;
+} 
+.half-width{
+    width: 500px;
+    margin: 30px;
+}
+.half-width h1{
+    font-size: 40px;
+}
+.half-width p{
+font-size: 20px;
+}
+.batton{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 10px 5px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.half-width img{
+    width: 100%;
+}
