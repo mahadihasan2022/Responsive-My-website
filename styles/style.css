@@ -157,7 +157,7 @@ color: #E02C6D;
 }
 .footer{
     background-color: black;
-    height: 80px;
+    height: 60px;
     text-align: center;
 }
 .footer-manu{
@@ -165,6 +165,11 @@ color: #E02C6D;
     padding: 10px;
     background-color: black;
     text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
 /* responsive for tab */
 @media screen and (max-width: 768px){
