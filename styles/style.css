@@ -171,7 +171,7 @@ color: #E02C6D;
     }
 }
 /* resposive for mobile device */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
     h2{
         text-align: center;
     }
@@ -186,11 +186,11 @@ color: #E02C6D;
     }
     .product{
         justify-content: center;
+        flex-direction: column;
     }
     .half-width{
         display: grid;
-        grid-template-columns: repeat(1,);
-    ;
+        flex-direction: column;
     }
     .in-container{
     flex-wrap: wrap;
